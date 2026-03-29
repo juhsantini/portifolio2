@@ -1,0 +1,146 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+/* CABEÇALHO */
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #ffffff;
+    border: 2px solid rgba(17,24,39,.10);
+    border-radius: 8px;
+    padding: 22px;
+    box-shadow: 0 6px 18px rgba(17,24,39,.06);
+}
+
+.titulo {
+    color: #c40c68;
+    font-size: 50px;
+}
+
+.subtitulo {
+    color: #4b5563;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+/* IMAGEM TOPO */
+.imagem-topo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imagem-topo img {
+    width: 750px;
+    border-radius: 10px;
+}
+
+/* SEÇÕES */
+.secao {
+    margin-top: 16px;
+    background: #ffffff;
+    border: 1px solid rgba(17,24,39,.10);
+    border-radius: 14px;
+    padding: 22px;
+}
+
+.secao h2 {
+    text-align: center;
+    color: #c40c68;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.secao p {
+    text-align: center;
+    font-size: 25px;
+    color: #4b5563;
+}
+
+/* SOBRE */
+/* SOBRE */
+.sobre {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start; /* topo alinhado */
+}
+
+/* IMAGEM */
+.foto-minha {
+    width: 40%;
+    max-width: 750px;
+    border-radius: 12px;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+.texto1 p {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.texto1 h2 {
+    text-align: left;
+    margin-top: 30px;
+
+}
+
+.texto1 ul {
+    text-align: left;
+    list-style-position: inside; 
+    padding: 0;
+}
+
+.texto1 li {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+/* LOCALIZAÇÃO */
+.localizacao {
+    display: flex;
+    justify-content: center;
+}
+
+.localizacao iframe {
+    width: 600px;
+    height: 450px;
+    border: 0;
+}
+
+/* RODAPÉ */
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 16px;
+    background: #ffffff;
+    border: 1px solid rgba(17,24,39,.10);
+    border-radius: 14px;
+    padding: 18px;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #111827;
+}
